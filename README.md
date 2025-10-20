@@ -38,7 +38,7 @@ git clone https://github.com/ENSTABretagneRobotics/oculus_ros2.git
 
 Compile the metapackage:
 ```
-cd .. && colcon build
+cd .. && colcon build --packages-up-to oculus_interfaces
 source install/setup.bash
 ```
 
